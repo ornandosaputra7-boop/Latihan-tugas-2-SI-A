@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ornando Saputra Brillianto | Mahasiswa Sistem Informasi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar dengan Glassmorphism -->
+    <nav class="navbar sticky">
+        <div class="navbar-container">
+            <div class="navbar-logo">Ornando S.B.</div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <!-- Toggle Dark Mode -->
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle Dark Mode">
+                <span class="toggle-icon">🌙</span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero reveal-on-scroll">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">Ornando Saputra Brillianto</h1>
+                <p class="hero-subtitle">Mahasiswa Sistem Informasi di Universitas Komputama. Menggabungkan analisis bisnis, struktur data, dan teknologi untuk menciptakan solusi digital yang efisien dan inovatif.</p>
+                <a href="#experience" class="cta-button">Jelajahi Proyek</a>
+            </div>
+            <div class="hero-image">
+                <!-- Placeholder SVG Ilustrasi Minimalis untuk Sistem Informasi -->
+                <svg viewBox="0 0 300 300" class="hero-illustration">
+                    <!-- Background Circle -->
+                    <circle cx="150" cy="150" r="140" fill="none" stroke="currentColor" stroke-width="2" opacity="0.1"/>
+                    
+                    <!-- Code Icon -->
+                    <g transform="translate(100, 80)">
+                        <rect x="0" y="0" width="50" height="50" rx="8" fill="none" stroke="currentColor" stroke-width="2.5"/>
+                        <path d="M 15 20 L 10 30 L 20 35" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                        <path d="M 35 20 L 40 30 L 30 35" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                    </g>
+                    
+                    <!-- Data/Analytics Icon -->
+                    <g transform="translate(150, 80)">
+                        <rect x="0" y="0" width="50" height="50" rx="8" fill="none" stroke="currentColor" stroke-width="2.5"/>
+                        <rect x="8" y="30" width="6" height="12" fill="currentColor"/>
+                        <rect x="18" y="22" width="6" height="20" fill="currentColor"/>
+                        <rect x="28" y="26" width="6" height="16" fill="currentColor"/>
+                        <rect x="38" y="28" width="6" height="14" fill="currentColor"/>
+                    </g>
+                    
+                    <!-- Network Icon -->
+                    <g transform="translate(125, 160)">
+                        <circle cx="10" cy="10" r="4" fill="currentColor"/>
+                        <circle cx="40" cy="10" r="4" fill="currentColor"/>
+                        <circle cx="25" cy="35" r="4" fill="currentColor"/>
+                        <line x1="10" y1="10" x2="40" y2="10" stroke="currentColor" stroke-width="2"/>
+                        <line x1="10" y1="10" x2="25" y2="35" stroke="currentColor" stroke-width="2"/>
+                        <line x1="40" y1="10" x2="25" y2="35" stroke="currentColor" stroke-width="2"/>
+                    </g>
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about reveal-on-scroll">
+        <div class="section-container">
+            <h2 class="section-title">Tentang Saya</h2>
+            <div class="about-content">
+                <p class="about-text">
+                   Saya adalah mahasiswa Sistem Informasi yang berdedikasi untuk memahami bagaimana teknologi dapat mengoptimalkan operasional bisnis. Dengan kombinasi keterampilan teknis dan pemahaman manajemen, saya mampu beradaptasi cepat dengan lingkungan baru dan berkontribusi dalam perancangan hingga implementasi sistem informasi yang inovatif.
+                </p>
+                <p class="about-text">
+                    Melalui berbagai proyek akademik dan pengalaman organisasi, saya belajar untuk menggabungkan pemikiran analitis dengan kreativitas dalam memecahkan masalah kompleks. Saya percaya bahwa setiap tantangan adalah kesempatan untuk berinovasi dan berkontribusi pada dunia digital yang terus berkembang.
+                </p>
+                <div class="about-stats">
+                    <div class="stat-item reveal-on-scroll">
+                        <h3 class="stat-number">5+</h3>
+                        <p class="stat-label">Proyek</p>
+                    </div>
+                    <div class="stat-item reveal-on-scroll">
+                        <h3 class="stat-number">1</h3>
+                        <p class="stat-label">Organisasi</p>
+                    </div>
+                    <div class="stat-item reveal-on-scroll">
+                        <h3 class="stat-number">100%</h3>
+                        <p class="stat-label">Dedikasi</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section dengan Timeline -->
+    <section id="experience" class="experience reveal-on-scroll">
+        <div class="section-container">
+            <h2 class="section-title">Pendidikan</h2>
+            <div class="timeline">
+                <!-- Timeline Item 1 -->
+                <div class="timeline-item reveal-on-scroll">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="experience-card">
+                            <h3 class="experience-title">Universitas Komputama</h3>
+                            <p class="experience-org">Mahasiswa Sistem Informasi</p>
+                            <p class="experience-date">2025 - Sekarang</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Timeline Item 2 -->
+                <div class="timeline-item reveal-on-scroll">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="experience-card">
+                            <h3 class="experience-title">MA El-Bayan</h3>
+                            <p class="experience-org">Jurusan Agama</p>
+                            <p class="experience-date">2023</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Timeline Item 3 -->
+                <div class="timeline-item reveal-on-scroll">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="experience-card">
+                            <h3 class="experience-title">SMP Islam</h3>
+                            <p class="experience-date">2019</p>
+                        </div>
+                    </div>
+                </div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact reveal-on-scroll">
+        <div class="section-container contact-container">
+            <h2 class="section-title">Mari Terhubung</h2>
+            <p class="contact-subtitle">Saya siap untuk kolaborasi, diskusi, atau pertanyaan. Hubungi saya melalui WhatsApp atau media sosial lainnya.</p>
+            
+            <div class="contact-methods">
+                <!-- WhatsApp Contact -->
+                <a href="https://wa.me/628388541961" class="contact-card whatsapp-link" target="_blank" rel="noopener noreferrer">
+                    <div class="contact-icon">💬</div>
+                    <h3>WhatsApp</h3>
+                    <p><span class="phone-number">08388541961</span></p>
+                    <span class="contact-cta">Kirim Pesan</span>
+                </a>
+
+                <!-- Email Contact -->
+                <a href="mailto:ornando@example.com" class="contact-card email-link" target="_blank" rel="noopener noreferrer">
+                    <div class="contact-icon">✉️</div>
+                    <h3>Email</h3>
+                    <p>ornandosaputra0@gmail.com</p>
+                    <span class="contact-cta">Tulis Email</span>
+                </a>
+
+                <!-- LinkedIn Profile -->
+                <a href="https://linkedin.com" class="contact-card linkedin-link" target="_blank" rel="noopener noreferrer">
+                    <div class="contact-icon">🔗</div>
+                    <h3>LinkedIn</h3>
+                    <p>Profil Profesional</p>
+                    <span class="contact-cta">Kunjungi</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 Ornando Saputra Brillianto. Dibuat dedengan Hati menggunakan HTML, CSS & JavaScript.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
